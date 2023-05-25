@@ -1,0 +1,36 @@
+body {
+    background-color: #1e1e1e;
+}
+
+.homepage {
+    color: #fff;
+    position: relative;
+    left: 33%;
+    width: 100%;
+    margin: 0;
+
+}
+
+
+.dropwon {
+    margin-top: 4rem;
+    /* position: relative;
+    top: 10%;
+    left: 15%;*/
+    width: 30%;
+}
+
+.scenarioList {
+    margin-top: 2rem;
+    /* position: relative;
+    top: 10%;
+    left: 15%;
+    width: 100%; */
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 2rem;
+}

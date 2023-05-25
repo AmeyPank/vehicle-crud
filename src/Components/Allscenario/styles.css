@@ -1,0 +1,70 @@
+.main {
+    color: white;
+    position: relative;
+    left: 35%;
+    /* width: 100%; */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    margin-top: 15%;
+    width: 100%;
+
+}
+
+.h1andbtn {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.btn {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.btn button {
+    height: 3rem;
+    margin-left: 1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    height: 2rem;
+    text-align: center;
+    padding: 8px;
+    background-color: #333333;
+    color: white;
+    border: none !important;
+    /* Remove the border */
+}
+
+td {
+    height: 2rem;
+    text-align: center;
+    padding: 8px;
+    border: none;
+    color: #333333;
+    background-color: white;
+}
+
+
+tr {
+    border-bottom: 1px solid #333333;
+}
+
+span {
+    cursor: pointer;
+}

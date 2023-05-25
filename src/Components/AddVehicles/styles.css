@@ -1,0 +1,45 @@
+body {
+    background-color: #1e1e1e;
+    width: 70vw;
+}
+
+.addVehicle {
+    color: white;
+    position: relative;
+    left: 35%;
+    margin-top: 15%;
+    width: 75vw;
+}
+
+.inputContainer {
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 79%;
+
+    height: 12rem;
+    background-color: #333333;
+    border: 1px solid #333333;
+}
+
+#inputs {
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Creates three equal-width columns */
+    grid-gap: 10px;
+    /* Adjust the gap value as per your requirements */
+}
+
+#direction {
+    color: #fff;
+    border: 1px solid white;
+    background-color: #333333;
+    width: 77%;
+    padding: 8px;
+    font-size: 16px;
+}
+
+#inputs input {
+    width: 70%;
+    margin-bottom: 10px;
+}

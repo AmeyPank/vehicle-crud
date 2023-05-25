@@ -1,0 +1,136 @@
+body {
+    background-color: #1e1e1e;
+    width: 70vw;
+}
+
+.scenario-container {
+    color: white;
+    position: relative;
+    left: 35%;
+    margin-top: 15%;
+    width: 75vw;
+
+}
+
+
+.add-scenario {
+    margin: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.input-container {
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 79%;
+
+    height: 5rem;
+    background-color: #333333;
+    border: 1px solid #333333;
+}
+
+.inputs {
+    /* padding: 10px; */
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    color: #fff;
+    border: 1px solid white;
+    background-color: #333333;
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: skyblue !important;
+}
+
+select:focus {
+    outline: skyblue;
+}
+
+#btn {
+    display: flex;
+    width: 45% !important;
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 5px; */
+    /* justify-content: space-between;   */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #fff;
+}
+
+button:not(:first-child) {
+    margin-left: 20px;
+}
+
+.green-button {
+    background-color: green;
+}
+
+.orange-button {
+    background-color: orange;
+}
+
+.skyblue-button {
+    background-color: skyblue;
+}
+
+@media screen and (min-width: 400px) and (max-width:850px) {
+    .scenario-container {
+        color: white;
+        position: relative;
+
+        left: 60%;
+        margin-top: 25%;
+
+        width: 65vw;
+
+    }
+
+
+    .input-container {
+        padding: 20px;
+        margin-bottom: 20px;
+        width: 79%;
+
+        height: 10rem;
+        background-color: #333333;
+        border: 1px solid #333333;
+    }
+
+    .inputs {
+        /* padding: 10px; */
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .button-container {
+        display: flex;
+        width: 70% !important;
+        justify-content: space-between;
+        box-sizing: border-box;
+        /* margin-bottom: 20px; */
+    }
+}

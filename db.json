@@ -1,0 +1,15 @@
+{
+  "scenarios": [
+    {
+      "scenarioName": "vehicles",
+      "scenarioTime": "24",
+      "id": 1
+    },
+    {
+      "scenarioName": "Scenario 1",
+      "scenarioTime": "5",
+      "id": 2
+    }
+  ],
+  "vehicles": []
+}

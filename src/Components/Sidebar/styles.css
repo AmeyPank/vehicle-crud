@@ -1,0 +1,24 @@
+.sidebar {
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #c0c8d1;
+    padding: 20px;
+}
+
+.sidebar__link {
+    position: relative;
+    top: 25%;
+    font-size: 1.5rem;
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.sidebar__link:hover {
+    color: #2e9ecb;
+    font-weight: bold;
+}
